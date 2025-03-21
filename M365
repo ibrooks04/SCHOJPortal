@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Supreme Council M365 Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #0b3d91;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .app-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1rem;
+    }
+
+    .app-tile {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .app-tile:hover {
+      transform: scale(1.05);
+    }
+
+    .app-tile img {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 0.5rem;
+    }
+
+    .announcement {
+      background: white;
+      padding: 1rem;
+      border-left: 5px solid #0b3d91;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to the Supreme Council of the House of Jacob</h1>
+    <p>Your Microsoft 365 Portal for Church Operations & Communication</p>
+  </header>
+
+  <div class="container">
+    <section class="section">
+      <h2>Quick Access</h2>
+      <div class="app-grid">
+        <a class="app-tile" href="https://outlook.office.com" target="_blank">
+          <img src="https://img.icons8.com/color/48/000000/outlook.png" alt="Outlook"/>
+          <div>Outlook</div>
+        </a>
+        <a class="app-tile" href="https://teams.microsoft.com" target="_blank">
+          <img src="https://img.icons8.com/color/48/000000/microsoft-teams.png" alt="Teams"/>
+          <div>Teams</div>
+        </a>
+        <a class="app-tile" href="https://www.office.com/launch/word" target="_blank">
+          <img src="https://img.icons8.com/color/48/000000/ms-word.png" alt="Word"/>
+          <div>Word</div>
+        </a>
+        <a class="app-tile" href="https://www.office.com/launch/excel" target="_blank">
+          <img src="https://img.icons8.com/color/48/000000/ms-excel.png" alt="Excel"/>
+          <div>Excel</div>
+        </a>
+        <a class="app-tile" href="https://onedrive.live.com" target="_blank">
+          <img src="https://img.icons8.com/color/48/000000/onedrive.png" alt="OneDrive"/>
+          <div>OneDrive</div>
+        </a>
+        <a class="app-tile" href="https://www.office.com/apps" target="_blank">
+          <img src="https://img.icons8.com/color/48/000000/microsoft.png" alt="More Apps"/>
+          <div>All Apps</div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Announcements</h2>
+      <div class="announcement">
+        <h3>📢 Monthly Update – March 2025</h3>
+        <p>Review the schedule for council meetings, virtual training sessions, and system maintenance updates. Email reminders will be sent weekly.</p>
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>
